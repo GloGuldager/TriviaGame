@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- //div to contain question (one at a time)
+    //div to contain countdown clock
+    //div for scoreboard (congratulate if answers question correctly)
+      //display when they select incorrect or that they have run out of time
+      //final screen tally total number of correct answers, total incorrect answers, and an option to restart the game (without reloading the page)   -->
+
+<header>Tennis Trivia
+        <h2>How many questions can you answer correctly in 20 seconds? 
+            <br>Press Start to Begin
+        </h2> 
+ </header>
+ <br>
+ <div id="gameContainer">
+
+    <button id="startGame">Start</button>
+    <br>
+    <div id="time-remaining" style="font-family: sans-serif; font-size: 20px; padding: 20px; font-weight: bold;">
+  </div>
+    <!-- <div id="display">00:00</div> -->
+
+    <div id="questions"></div>
+    <div id="tally" style="display: none; padding: 20px; background-color: #8f0f60; width: 80vw; margin: auto; color: white; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size:large;">
+    </div>
+    <button id="submit" style="margin:auto">Finish or Exit Quiz</button>
+    <button id="reset" style="margin:auto">Try Again</button>
+</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
